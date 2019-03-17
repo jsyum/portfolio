@@ -15,7 +15,15 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
   </head>
   <body>
-    <div id="splashpage"></div>
+    <div id="splashpage">
+      <div id=navbar>
+      <span class=navbtn id=aboutbtn>About</span>
+      <span class=navbtn id=portfoliobtn>Portfolio</span>
+      <span class=navbtn id=contactbtn>Contact</span>
+      <span class=navbtn><a href="https://github.com/jsyum" target="_blank"
+      ><img src="assets/images/github.png" alt="githublogo" id=githublogo></a></span>
+    </div>
+    </div>
     <div id="about"></div>
     <div id="portfolio">
     <div id=emptydiv></div>
@@ -63,10 +71,10 @@
     <div id=emptydiv></div>
     <div id="contact">
       <form action="https://formspree.io/jennifersyum@gmail.com" method="POST" id="contactform">
-        <input type="text" placeholder="name" name="name"><br>
-        <input type="email" placeholder="email address" name="_replyto"><br>
-        <input type="text" placeholder="your message" name="message"><br>
-        <input type="submit" value="Send">
+        <input type="text" class=formtext placeholder=" name" name="name"><br>
+        <input type="email" class=formtext placeholder=" email address" name="_replyto"><br>
+        <input type="text" class=formtext placeholder=" your message" name="message"><br>
+        <input type="submit" class=formtext value="Send">
       </form>
     </div>
 

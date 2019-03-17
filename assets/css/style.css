@@ -13,14 +13,23 @@ html {
   height: 100%;
 }
 
-#clickme {
+.navbtn {
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
+  margin: 20px;
+}
+
+#navbar {
   text-align: center;
   display: block;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 10%;
+}
+
+#githublogo {
+  height: 20%;
+  width: 10%;
 }
 
 #about {
@@ -61,5 +70,9 @@ img {
 #contactform {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 40%;
+}
+
+.formtext {
+  font-family: "Times New Roman", Times, serif;
 }
