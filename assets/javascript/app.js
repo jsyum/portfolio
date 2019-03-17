@@ -1,3 +1,7 @@
+$(document).ready(function() {
+  $("html").niceScroll();
+});
+
 $("#splashpage").append("<div id=clickme>Click me</div>");
 
 $("#clickme").on("click", () => {
