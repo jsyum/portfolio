@@ -71,6 +71,7 @@ html {
   font-size: 30px;
   height: 30%;
   color: white;
+  display: block;
 }
 
 .portfolioimg {
@@ -133,16 +134,20 @@ a:hover {
 #contactme {
   font-family: "Homemade Apple", cursive;
   font-size: 30px;
-  position: absolute;
-  top: 37%;
-  left: 37%;
-}
-#contactform {
-  position: absolute;
-  top: 45%;
-  left: 38%;
 }
 
+#contactcontainer {
+  position: absolute;
+  left: 25%;
+  top: 40%;
+}
+
+#contactdetails {
+  font-family: "Raleway", sans-serif;
+  position: absolute;
+  right: 25%;
+  top: 50%;
+}
 .formtext {
   font-family: "Times New Roman", Times, serif;
 }
