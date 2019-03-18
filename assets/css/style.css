@@ -65,13 +65,20 @@ html {
   width: 100vw;
 }
 
+#portfolioheadercontainer {
+  display: block;
+  height: 35%;
+  position: relative;
+}
 #portfolioheader {
   font-family: "Homemade Apple", cursive;
   text-align: center;
   font-size: 30px;
-  height: 30%;
   color: white;
   display: block;
+  position: absolute;
+  top: 50%;
+  left: 43%;
 }
 
 .portfolioimg {
