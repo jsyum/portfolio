@@ -147,10 +147,6 @@ a:hover {
   color: #1995ad;
 }
 
-#emptydiv {
-  height: 33%;
-}
-
 #contact {
   background-image: url("../images/laptop-white-crop.jpg");
   background-position: center;
@@ -167,15 +163,15 @@ a:hover {
 
 #contactcontainer {
   position: absolute;
-  left: 25%;
-  top: 40%;
+  left: 28%;
+  top: 38%;
 }
 
 #contactdetails {
   font-family: "Raleway", sans-serif;
   position: absolute;
-  right: 25%;
-  top: 50%;
+  right: 28%;
+  top: 48%;
 }
 .formtext {
   font-family: "Times New Roman", Times, serif;
