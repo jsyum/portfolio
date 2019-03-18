@@ -12,3 +12,8 @@ $("#contactbtn").on("click", () => {
   console.log("Clicked");
   window.location = "#contact";
 });
+
+$("#totop").on("click", () => {
+  console.log("Clicked");
+  window.location = "#splashpage";
+});
