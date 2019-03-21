@@ -194,7 +194,7 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 576px) {
   #contactme {
     font-size: 25px;
   }
@@ -205,5 +205,31 @@ a:hover {
   }
   #contactcontainer {
     left: 10%;
+  }
+
+  #portfolioheadercontainer {
+    height: 15%;
+  }
+
+  #portfolioheader {
+    top: 26%;
+    left: 35%;
+  }
+
+  .portfolioimg {
+    height: 50%;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .viewsource {
+    font-size: 18px;
+    display: inline-block;
+  }
+
+  .fa-code-branch {
+    font-size: 20px;
+    display: inline-block;
   }
 }
